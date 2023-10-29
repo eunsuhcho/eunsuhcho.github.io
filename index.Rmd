@@ -34,5 +34,9 @@ Also here's Meimei:
 
 ![](images/meimei.jpeg)
 
+# Other stuff on this page
+
+Definitely there is [plotly](plotly.html) stuff!
+
 
 
