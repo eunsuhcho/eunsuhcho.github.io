@@ -1,42 +1,19 @@
 ---
-title: "My awesome website"
+title: "**Eunsuh Irene Cho**"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Irene's awesome website
+**MPH Candidate at Columbia University Mailman School of Public Health**
 
-Here's a gif of Elmo
+--------------------------------------
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+### **About**
 
+Hi, I'm Irene! I'm a second-year master's student at the [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/), concentrating in epidemiology with a certificate in applied biostatistics and public health data science. Before attending Columbia, I graduated from the [University of Pittsburgh](https://www.pitt.edu/) in May of 2022 with a B.S. in biological sciences.
 
-You can add text
+### **Current work**
 
-* and list
-* with extra bullets
-
-You can *FORMAT* and **bold**
-
-This is a [link](https://www.google.com/) to a good data science tool. Here's a link to [P8105](https://p8105.com/). Here's a link to the [about](about.html) page.
-
-
-# Here's a new section
-
-My roommate's cat is Silver. This is Silver:
-
-![](images/silver.jpeg)
-
-
-Also here's Meimei:
-
-![](images/meimei.jpeg)
-
-# Other stuff on this page
-
-Definitely there is [plotly](plotly.html) stuff!
-
-
-
+I've been working under [Dr. Churl-Su Kwon](https://www.publichealth.columbia.edu/profile/churl-su-kwon-md) since June to assess disparities to epilepsy surgery access in patients with autism spectrum disorder and drug-resistant epilepsy.

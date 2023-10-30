@@ -3,8 +3,8 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Resume"
+      href: resume.html
     - text: "Projects"
       href: projects.html
     - text : "Plotly"
@@ -12,9 +12,11 @@ navbar:
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<ec3663@cumc.columbia.edu>
+      href: mailto:<eunsuh.cho@columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/eunsuhcho/
+    - icon: fa-brands fa-linkedin-in
+      href: https://www.linkedin.com/in/eunsuh-cho
 output:
   html_document:
-    theme: cosmo
+    theme: flatly

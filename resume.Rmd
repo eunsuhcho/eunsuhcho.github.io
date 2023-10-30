@@ -1,0 +1,41 @@
+---
+title: "**Resume**"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## **Education**
+
+University of Pittsburgh (Aug 2018 - May 2022) <br>
+*Bachelor of Science in Biological Sciences*
+
+Columbia University Mailman School of Public Health (Sep 2022 - May 2024) <br>
+*Master of Public Health in Epidemiology* <br>
+*Certificate in Applied Biostatistics & Public Health Data Science*
+
+## **Experience**
+
+Gertrude H. Sergievsky Center (June 2023) <br>
+*Research Intern*
+
+Magee-Womens Research Institute (July 2021 - Sep 2021) <br>
+*Voluntary Research Intern*
+
+Department of Biology, Department of Chemistry, University of Pittsburgh (July 2020 - May 2022) <br>
+*Undergraduate Teacher's Assistant*
+
+Korean Student Association (May 2020 - May 2022) <br>
+*President* <br>
+*Public Relations Chair*
+
+The Songburghs (May 2019 - May 2022) <br>
+*President* <br>
+*Music Director*
+
+## **Skills**
+
+Programming Languages: R, SAS, Python <br>
+Languages: Korean, English, German
+Research interests: equitable healthcare access for minority and immigrant populations, adverse health effects due to racial and socioeconomic disparities, and mixed-methods analysis to approximate epidemiological interactions
