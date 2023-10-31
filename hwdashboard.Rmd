@@ -1,0 +1,53 @@
+---
+title: "NYC Restaurant Inspections"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+
+data("rest_inspec")
+
+rest_inspec =
+  sample_n(rest_inspec, size = 10000, replace = TRUE) |> 
+  select(boro, critical_flag, cuisine_description, dba, score, violation_code, zipcode, grade) |> 
+  drop_na(boro, score) |> 
+  filter(grade != "Not Yet Graded")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec |> 
+  group_by(boro) |>
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+rest_inspec |> 
+  group_by(grade) |>
+  summarise(mean_score = mean(score)) |> 
+  plot_ly(x = ~grade, y = ~mean_score, color = ~grade, type = "bar", colors = "viridis")
+```
+

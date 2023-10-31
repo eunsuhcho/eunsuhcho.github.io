@@ -10,7 +10,7 @@ navbar:
     - text : "Plotly"
       href: plotly.html
     - text: "Dashboard"
-      href: dashboard.html
+      href: hwdashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<eunsuh.cho@columbia.edu>
     - icon: fa-github fa-lg
